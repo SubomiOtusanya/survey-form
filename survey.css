@@ -1,0 +1,41 @@
+body{  background-color:lightblue;
+  text-align:center;
+  }
+  
+  form{
+    max-width:550px;
+    text-align:left;
+    padding:22px;
+    border:3px solid black;
+  border-radius:8px;
+  margin: 0 auto;
+  }
+  .input-element{
+    margin:10px; 
+    display:flex;
+  flex-direction:column;
+  }
+  input{
+    padding:5px;
+    border:none;
+  border-radius:6px;
+  }
+  select{
+    padding:5px;
+    border:none;
+  border-radius:6px;
+  }
+  h1{
+    font-family:sans serif;
+    font-size:35px;
+  }
+  input[type="checkbox"]{
+    background-color:red;
+    width:20px;
+    height:20x;
+  
+  }
+  p{
+    font-family:sans serif;
+  }
+  

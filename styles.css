@@ -1,0 +1,82 @@
+*{
+  padding:0;
+  margin:0;
+}
+
+h1{
+  padding: 22px;
+  font-family:Arial;
+}
+
+h3{
+  background-color: #13151f;
+  margin:10px;
+  padding:10px;
+  border-radius: 10px;
+}
+body{
+  background-color: #03050f;
+  color:white;
+  font-family:Arial;
+  text-align: center;
+
+}
+.img-container{
+  padding:30px ;
+  margin: auto;
+  background-color: #002;
+}
+.elon-image{
+  border-radius:20px;
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: auto;
+  object-fit: contain;
+  
+}
+.caption{
+  padding:7px;
+}
+.life{
+  font-size:20px;
+  padding:20px 70px;
+  max-width:1600px;
+  margin: 10px;
+  background-color: #002;
+  text-align:left;
+  
+
+}
+.life-header{
+  font-size:20px;
+  font-family: Arial;
+  padding:40px;
+  text-align:center;
+  
+}
+.bold{
+  font-weight:bold;
+}
+li{
+  padding: 20px;
+  margin:20px;
+}
+
+.quote{
+  margin:30px 30px 5px;
+  font-style:italic;
+}
+
+.quote-author{
+  text-indent: 30px;;
+}
+a{
+  color:#99f;
+}
+#image{
+  max-width :100%;
+  height: auto;
+  display: block;
+
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="survey.css">
+  <title>COVENANT SURVEY FORM</title> 
+</head>
+<body>
+  <h1 id="title">How can Cu make  better hostels</h1>
+<p id="description">Thank you for partaking in this survey</p>
+<form id="survey-form">
+  <div class="Input-element">
+    <label id="name-label"> Your name </label>
+<input id="name" type="text" required placeholder="Name">
+  </div>
+
+  <div class="Input-element" >
+<label id="email-label"> Your email </label>
+<input id="email" type="email" required placeholder="Email address">
+  </div>
+  <div class="Input-element">
+<label id="number-label"> Your Age </label>
+<input id="number" type="number" min="16" max="25"  required placeholder="Age">
+  </div> 
+
+<div class="input-element">
+<label id="select-label">
+    favourite hostel
+  </label>
+<select id="dropdown">
+  <option>Daniel hall</option>
+  <option>Peter hall</option>
+  <option>Paul hall</option>
+  <option>Joseph hall</option>
+  <option>John hall</option>
+  <select>
+  </div>
+
+  <div class="input-element">
+    <label>Have you stayed in all the halls?</label>
+    <div>
+    <label><input type="radio" name="hostel" value="yes">Yes</label>
+    </div>
+    <div>
+    <label><input type="radio" name="hostel" value="no" >No</label>
+    </div>
+  </div>
+
+  <div class="input-element">
+    <label>which ideas are good for covenant to implement</label>
+    <div>
+    <label><input type="checkbox" name="suggestions" value="appliances">Better apliances in rooms</label>
+    </div>
+    <div>
+    <label><input type="checkbox" name="suggestions" value="bed" >Bigger beds</label>
+    </div>
+    <div>
+    <label><input type="checkbox" name="suggestions" value="electricity">Frequent electricity</label>
+    </div>
+    <div>
+    <label><input type="checkbox" name="suggestions" value="appliances">fewer people in a room</label>
+    </div>
+  </div>
+
+  <div class ="input-element">
+    <label>Additional Inputs</label>
+    <textarea>
+    </textarea>
+    </div>
+    <button id="submit" type="submit">submit</button>
+
+</form>
+
+  
+</body>
+</html>
